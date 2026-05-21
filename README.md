@@ -19,6 +19,7 @@ Guilherme Ernane
 João Victor Cabral
 Lucas Cota
 Ludmilla Santos
+Samuel Sales
 
 🎯 Objetivo da Aplicação
 
