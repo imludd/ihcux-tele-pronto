@@ -1,126 +1,174 @@
-README — TelePronto 📱🏥
-📖 Sobre o Projeto
+# 📱🏥 TelePronto
 
-O TelePronto é um protótipo de baixa fidelidade desenvolvido para a disciplina de Interação Humano Computador e UX do Centro Universitário UNA.
+## 📖 Sobre o Projeto
 
-O objetivo do aplicativo é auxiliar hospitais no atendimento remoto de casos leves, reduzindo filas presenciais e oferecendo mais praticidade e segurança aos pacientes.
+O **TelePronto** é um protótipo de baixa fidelidade desenvolvido para a disciplina de **Interação Humano Computador e UX** do Centro Universitário UNA.
 
-O protótipo foi desenvolvido no Miro com foco em:
+A proposta do aplicativo é oferecer atendimento remoto para casos de baixa complexidade, reduzindo filas presenciais em hospitais e proporcionando mais praticidade, conforto e segurança aos pacientes.
 
-simplicidade;
-acessibilidade;
-legibilidade;
-redução de erros;
-experiência do usuário em situações de mal-estar.
+O protótipo foi criado no **Miro**, com foco em princípios de usabilidade, acessibilidade e experiência do usuário, especialmente para pessoas em situações de mal-estar ou vulnerabilidade durante o atendimento médico.
 
-👨‍💻 Integrantes
-Gabriella Chagas
-Guilherme Ernane
-João Victor Cabral
-Lucas Cota
-Ludmilla Santos
-Samuel Sales
+---
 
-🎯 Objetivo da Aplicação
+## 👨‍💻 Integrantes
 
-O aplicativo permite que pacientes realizem:
+* Gabriella Chagas
+* Guilherme Ernane
+* João Victor Cabral
+* Lucas Cota
+* Ludmilla Santos
+* Samuel Sales
 
-Triagem inteligente de sintomas;
-Consulta médica por vídeo;
-Acompanhamento de receitas digitais;
-Configuração de lembretes de medicação;
-Busca de farmácias próximas.
+---
 
-🖼️ Protótipo
+## 🎯 Objetivo da Aplicação
+
+O TelePronto foi projetado para permitir que pacientes realizem atendimentos de forma rápida e intuitiva por meio das seguintes funcionalidades:
+
+* 🩺 Triagem inteligente de sintomas
+* 🎥 Consulta médica por vídeo
+* 📄 Recebimento de receitas digitais
+* ⏰ Configuração de lembretes de medicação
+* 📍 Busca de farmácias próximas
+
+---
+
+## 🖼️ Protótipo
 
 Os arquivos do protótipo estão disponíveis na pasta:
 
+```text
 /prototipo
+├── prototipo.png
+└── prototipo.pdf
+```
 
-Arquivos:
+---
 
-prototipo.png
-prototipo.pdf
+## 📱 Telas Desenvolvidas
 
-📱 Telas Desenvolvidas
-1. Home / Dashboard
+### 🏠 Home / Dashboard
 
-Tela principal com acesso rápido para:
+Tela principal do aplicativo com acesso rápido às funcionalidades mais utilizadas:
 
-Consulta imediata;
-Meus remédios;
-Histórico médico;
-Emergência.
-2. Fluxo de Triagem
+* Consulta imediata
+* Meus remédios
+* Histórico médico
+* Emergência
 
-Tela onde o usuário informa:
+### 🩺 Triagem de Sintomas
 
-sintomas;
-região da dor;
-intensidade;
-duração dos sintomas.
+Permite ao usuário informar:
 
-O fluxo foi pensado para ser simples e rápido.
+* Sintomas apresentados
+* Região da dor
+* Intensidade dos sintomas
+* Tempo de duração
 
-3. Sala de Espera Virtual
+O fluxo foi pensado para ser rápido e intuitivo, reduzindo o esforço necessário para iniciar uma consulta.
 
-Exibe:
+### ⏳ Sala de Espera Virtual
 
-quantidade de pacientes na fila;
-tempo estimado;
-status da conexão;
-mensagem de orientação ao paciente.
-4. Interface de Vídeo-Chamada
+Apresenta informações importantes sobre o atendimento:
 
-♿ Análise de Acessibilidade
+* Quantidade de pacientes na fila
+* Tempo estimado de espera
+* Status da conexão
+* Orientações para o paciente
 
-O design foi pensado especialmente para usuários idosos ou em situação de mal-estar.
+### 🎥 Vídeo-Chamada Médica
 
-Principais cuidados adotados:
+Ambiente destinado à consulta remota entre paciente e profissional de saúde.
 
-fontes grandes e legíveis;
-alto contraste entre texto e fundo;
-poucos elementos por tela;
-botões grandes;
-navegação simples;
-linguagem objetiva;
-ícones claros e intuitivos;
-botão de emergência sempre visível.
+### 📄 Receita Digital
+
+Tela para visualização e acesso às prescrições emitidas durante a consulta.
+
+---
+
+## ♿ Acessibilidade e UX
+
+O design foi planejado considerando principalmente usuários idosos, pessoas com limitações temporárias e pacientes em situação de desconforto físico.
+
+### Principais cuidados adotados
+
+* Fontes grandes e legíveis
+* Alto contraste entre texto e fundo
+* Botões amplos e fáceis de selecionar
+* Poucos elementos por tela
+* Navegação simplificada
+* Linguagem clara e objetiva
+* Ícones intuitivos
+* Botão de emergência sempre visível
+
+### Benefícios para o usuário
 
 Essas decisões ajudam usuários com:
 
-visão turva;
-dificuldade de concentração;
-tremores nas mãos;
-ansiedade durante o atendimento.
-🔄 Fluxo Crítico da Aplicação
+* Visão reduzida ou turva
+* Dificuldade de concentração
+* Tremores nas mãos
+* Ansiedade durante o atendimento
+* Baixa familiaridade com tecnologia
 
-Fluxo para iniciar uma consulta de urgência:
+---
 
-Home → Triagem → Sala de Espera → Vídeo-Chamada → Receita Digital
+## 🔄 Fluxo Principal do Usuário
 
-Passos:
+### Consulta de Urgência
 
-O usuário acessa a Home;
-Seleciona “Consulta Agora”;
-Realiza a triagem rápida;
-Entra na fila virtual;
-Inicia a consulta com o médico;
-Recebe receita digital após o atendimento.
-⚠️ Prevenção de Erros
+```text
+Home
+ ↓
+Triagem de Sintomas
+ ↓
+Sala de Espera Virtual
+ ↓
+Vídeo-Chamada Médica
+ ↓
+Receita Digital
+```
 
-Para evitar ações acidentais:
+### Passo a Passo
 
-o botão “Encerrar Consulta” possui confirmação;
-ações importantes utilizam mensagens de aviso;
-botões perigosos possuem destaque visual diferente;
-o usuário recebe feedback antes de sair da chamada;
-informações importantes permanecem sempre visíveis.
-🌐 Ferramentas Utilizadas
-Miro
-GitHub
-📚 Disciplina
+1. O usuário acessa a tela inicial.
+2. Seleciona a opção **Consulta Agora**.
+3. Realiza a triagem rápida dos sintomas.
+4. Entra na fila virtual de atendimento.
+5. Inicia a vídeo-consulta com o médico.
+6. Recebe a receita digital ao final da consulta.
 
-Interação Humano Computador e UX
+---
 
-Professor: Daniel Henrique Matos de Paiva
+## ⚠️ Prevenção de Erros
+
+Para reduzir erros e ações acidentais durante o uso do aplicativo, foram adotadas as seguintes estratégias:
+
+* Confirmação antes de encerrar consultas.
+* Alertas para ações importantes.
+* Feedback visual após cada ação realizada.
+* Destaque visual para ações críticas.
+* Informações essenciais sempre visíveis na tela.
+
+Essas medidas aumentam a segurança e a confiança do usuário durante o atendimento.
+
+---
+
+## 🛠️ Ferramentas Utilizadas
+
+* Miro
+* GitHub
+
+---
+
+## 📚 Disciplina
+
+**Interação Humano Computador e UX**
+
+Professor: **Daniel Henrique Matos de Paiva**
+
+---
+
+## 💡 Considerações Finais
+
+O TelePronto busca demonstrar como conceitos de UX e acessibilidade podem ser aplicados para melhorar a experiência de pacientes em atendimentos remotos. O protótipo prioriza simplicidade, clareza e eficiência, contribuindo para um processo de atendimento mais humano e acessível.
